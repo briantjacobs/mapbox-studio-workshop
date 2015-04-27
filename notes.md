@@ -78,4 +78,6 @@ hit <tab> while typing for autocompletion of files and directories
 - Markdown editor: MacDown
 - Jekyll for static site generator
 - Alfred as OSX app launcher
-- geojson.io
+- Visual geojson editor - http://geojson.io 
+- In-browser markdown editor https://stackedit.io/
+- Macdown - OSX markdown editor
