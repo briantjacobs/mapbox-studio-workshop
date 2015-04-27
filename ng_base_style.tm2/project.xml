@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#c3efff">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">-71.3672,32.9534,4</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="name"><![CDATA[NG 40 Million Style]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-streets-v5,jelder.e56f7f7b]]></Parameter>
+</Parameters>
+
+
+<Style name="landuse" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="landuse"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landuse</StyleName>  </Layer>
+
+<Style name="waterway" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="waterway"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>waterway</StyleName>  </Layer>
+
+<Style name="water" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="water"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>water</StyleName>  </Layer>
+
+<Style name="aeroway" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="aeroway"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>aeroway</StyleName>  </Layer>
+
+<Style name="barrier_line" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="barrier_line"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>barrier_line</StyleName>  </Layer>
+
+<Style name="building" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="building"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>building</StyleName>  </Layer>
+
+<Style name="landuse_overlay" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="landuse_overlay"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landuse_overlay</StyleName>  </Layer>
+
+<Style name="tunnel" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="tunnel"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>tunnel</StyleName>  </Layer>
+
+<Style name="road" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="road"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>road</StyleName>  </Layer>
+
+<Style name="bridge" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="bridge"
+  group-by="layer"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>bridge</StyleName>  </Layer>
+
+<Style name="admin" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="admin"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>admin</StyleName>  </Layer>
+
+<Style name="country_label_line" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="country_label_line"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>country_label_line</StyleName>  </Layer>
+
+<Style name="country_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="country_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>country_label</StyleName>  </Layer>
+
+<Style name="marine_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="marine_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>marine_label</StyleName>  </Layer>
+
+<Style name="state_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="state_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>state_label</StyleName>  </Layer>
+
+<Style name="place_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="place_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>place_label</StyleName>  </Layer>
+
+<Style name="water_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="water_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>water_label</StyleName>  </Layer>
+
+<Style name="poi_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="poi_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>poi_label</StyleName>  </Layer>
+
+<Style name="road_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="road_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>road_label</StyleName>  </Layer>
+
+<Style name="waterway_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="waterway_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>waterway_label</StyleName>  </Layer>
+
+<Style name="housenum_label" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="housenum_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>housenum_label</StyleName>  </Layer>
+
+<Style name="bndPoly_40M" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+    <PolygonSymbolizer fill="#e4dbd0" />
+  </Rule>
+  <Rule>
+    <PolygonSymbolizer fill="#e4dbd0" />
+  </Rule>
+</Style>
+<Layer name="bndPoly_40M"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>bndPoly_40M</StyleName>  </Layer>
+
+<Style name="waterPoly_40M" filter-mode="first">
+  <Rule>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+    <PolygonSymbolizer fill="#c3efff" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <PolygonSymbolizer fill="#c3efff" />
+  </Rule>
+</Style>
+<Layer name="waterPoly_40M"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>waterPoly_40M</StyleName>  </Layer>
+
+<Style name="bndLine_40M" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50800)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50800)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([code] = 50200) and ([CODE] = 50500) and ([GRADE] = 2)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([code] = 50200) and ([CODE] = 50500) and ([GRADE] = 2)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([code] = 50200) and ([CODE] = 50800)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([code] = 50200) and ([CODE] = 50800)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([code] = 50700) and ([CODE] = 50500) and ([GRADE] = 2)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([code] = 50700) and ([CODE] = 50500) and ([GRADE] = 2)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([code] = 50700) and ([CODE] = 50800)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([code] = 50700) and ([CODE] = 50800)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 60200) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 60200) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 60200) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 60200) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 60200)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#999999" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 60200)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#999999" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 60100) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 60100) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 60100) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 60100) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 60100)</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#999999" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 60100)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#999999" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50500) and ([GRADE] = 2)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50100) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50100) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50100) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50100) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50100)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50100)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50500) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50500) and ([code] = 50200)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50500) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50500) and ([code] = 50700)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" stroke-dasharray="5, 2, 10" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([CODE] = 50500)</Filter>
+    <LineSymbolizer stroke-width="1.5" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([CODE] = 50500)</Filter>
+    <LineSymbolizer stroke-width="3" stroke="#000000" />
+  </Rule>
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="bndLine_40M"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>bndLine_40M</StyleName>  </Layer>
+
+<Style name="drains_40M" filter-mode="first">
+  <Rule>
+    <Filter>([Feature] = 'IntermittentRiver')</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#c3efff" stroke-width="1.5" />
+  </Rule>
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="drains_40M"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>drains_40M</StyleName>  </Layer>
+
+<Style name="towns_40M" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="towns_40M"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>towns_40M</StyleName>  </Layer>
+
+<Style name="countryLabels" filter-mode="first">
+  <Rule>
+    <Filter>([isVisible] = 1)</Filter>
+    <LineSymbolizer stroke="#000000" />
+  </Rule>
+</Style>
+<Layer name="countryLabels"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>countryLabels</StyleName>  </Layer>
+
+</Map>

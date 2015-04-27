@@ -1,0 +1,144 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: true
+attribution: ''
+center: 
+  - 2.6367
+  - 26.9417
+  - 4
+description: ''
+Layer: 
+  - id: BndCountryPoly_40m
+    Datasource: 
+      file: /Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/BndCountryPoly.shp
+      type: shape
+    description: ''
+    fields: 
+      CODE: Number
+      COMMENT: String
+      FEATURE: String
+      FIPS: String
+      GFID: String
+      GRADE: Number
+      IsVisible: Number
+      OBJECTID: Number
+      Shape_STAr: Number
+      Shape_STLe: Number
+      SIGNIF: Number
+      SOURCE: String
+    properties: 
+      "buffer-size": 24
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: WaterPoly_40m
+    Datasource: 
+      file: /Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/WaterPoly.shp
+      type: shape
+    description: ''
+    fields: 
+      CODE: Number
+      Continent: String
+      Country: String
+      DUAL_NAME: String
+      Feature: String
+      GFID: String
+      Island: String
+      NAME_CONV: String
+      NAME_LOC1: String
+      NAME_LOC2: String
+      Ocean: String
+      State: String
+      WATER_LG: String
+      WATER_SM: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: BoundaryLine_40m
+    Datasource: 
+      file: /Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/BoundaryLine.shp
+      type: shape
+    description: ''
+    fields: 
+      CODE: Number
+      COMMENT: String
+      FEATURE: String
+      GFID: String
+      GRADE: Number
+      IsVisible: Number
+      OBJECTID: Number
+      Shape_STLe: Number
+      SIGNIF: Number
+      SOURCE: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: DrainageLine_40m
+    Datasource: 
+      file: /Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/DrainageLine.shp
+      type: shape
+    description: ''
+    fields: 
+      CODE: Number
+      Continent: String
+      Country: String
+      Feature: String
+      GFID: String
+      Island: String
+      NAME_CONV: String
+      NAME_LOC1: String
+      NAME_LOC2: String
+      Ocean: String
+      State: String
+      TAPER: Number
+      WATER_LG: String
+      WATER_SM: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: TownsPoint_40m
+    Datasource: 
+      file: /Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/TownsPoint.shp
+      type: shape
+    description: ''
+    fields: 
+      CODE: Number
+      Continent: String
+      Country: String
+      DUAL_NAME: String
+      Feature: String
+      GFID: String
+      Island: String
+      NAME_CONV: String
+      NAME_LOC1: String
+      NAME_LOC2: String
+      Ocean: String
+      Population: Number
+      State: String
+      TownGrade: Number
+      WATER_LG: String
+      WATER_SM: String
+    properties: 
+      "buffer-size": 40
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+  - id: country_pts_40m
+    Datasource: 
+      file: /Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/country_pts.shp
+      type: shape
+    description: ''
+    fields: 
+      FEATURE: String
+      GFID: String
+      LATY: Number
+      LONX: Number
+      NAME_CONV: String
+      NAME_LOC1: String
+      NAME_NODIA: String
+      SCALE: String
+    properties: 
+      "buffer-size": 40
+    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
+maxzoom: 7
+minzoom: 4
+name: NG Data 40M

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+
+<Parameters>
+  <Parameter name="center">2.6367,26.9417,4</Parameter>
+  <Parameter name="format">pbf</Parameter>
+  <Parameter name="json"><![CDATA[{"vector_layers":[{"id":"BndCountryPoly_40m","description":"","fields":{"OBJECTID":"Number","IsVisible":"Number","FIPS":"String","CODE":"Number","GRADE":"Number","GFID":"String","SIGNIF":"Number","COMMENT":"String","SOURCE":"String","FEATURE":"String","Shape_STAr":"Number","Shape_STLe":"Number"}},{"id":"WaterPoly_40m","description":"","fields":{"CODE":"Number","GFID":"String","Feature":"String","DUAL_NAME":"String","NAME_CONV":"String","NAME_LOC1":"String","NAME_LOC2":"String","State":"String","Country":"String","Continent":"String","Island":"String","WATER_SM":"String","WATER_LG":"String","Ocean":"String"}},{"id":"BoundaryLine_40m","description":"","fields":{"OBJECTID":"Number","IsVisible":"Number","CODE":"Number","GRADE":"Number","GFID":"String","SIGNIF":"Number","SOURCE":"String","COMMENT":"String","FEATURE":"String","Shape_STLe":"Number"}},{"id":"DrainageLine_40m","description":"","fields":{"TAPER":"Number","CODE":"Number","GFID":"String","Feature":"String","NAME_CONV":"String","NAME_LOC1":"String","NAME_LOC2":"String","State":"String","Country":"String","Continent":"String","Island":"String","WATER_SM":"String","WATER_LG":"String","Ocean":"String"}},{"id":"TownsPoint_40m","description":"","fields":{"CODE":"Number","TownGrade":"Number","GFID":"String","Feature":"String","Population":"Number","DUAL_NAME":"String","NAME_CONV":"String","NAME_LOC1":"String","NAME_LOC2":"String","State":"String","Country":"String","Continent":"String","Island":"String","WATER_SM":"String","WATER_LG":"String","Ocean":"String"}},{"id":"country_pts_40m","description":"","fields":{"SCALE":"String","GFID":"String","LONX":"Number","LATY":"Number","NAME_NODIA":"String","NAME_CONV":"String","NAME_LOC1":"String","FEATURE":"String"}}]}]]></Parameter>
+  <Parameter name="maxzoom">7</Parameter>
+  <Parameter name="minzoom">4</Parameter>
+  <Parameter name="name"><![CDATA[NG Data 40M]]></Parameter>
+</Parameters>
+
+
+<Layer name="BndCountryPoly_40m"
+  buffer-size="24"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/BndCountryPoly.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="WaterPoly_40m"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/WaterPoly.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="BoundaryLine_40m"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/BoundaryLine.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="DrainageLine_40m"
+  buffer-size="8"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/DrainageLine.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="TownsPoint_40m"
+  buffer-size="40"
+  srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/CDB_040/TownsPoint.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Layer name="country_pts_40m"
+  buffer-size="40"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    
+    <Datasource>
+       <Parameter name="file"><![CDATA[/Users/bjacobs/Projects/mapbox-studio-workshop-ted/data/country_pts.shp]]></Parameter>
+       <Parameter name="type"><![CDATA[shape]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
